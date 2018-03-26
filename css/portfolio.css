@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	font-family: monospace;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	margin-top: 6%;
+	width: 100%;
+}
+
+header {
+	height: 20%;
+	width: 100%;
+	overflow: auto;
+	border-bottom: solid 5px #7d97ad;
+}
+
+#logo {
+	position: relative;
+	top: 0.3em;
+	left: 0.1em;
+	width: 10%;
+	float: left;
+}
+
+#author-infos {
+	float: right;
+	text-align: right;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+#main-img-container {
+	width: 100%;
+	height: 400px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#featured-works-title {
+	position: relative;
+	font-weight: bold;
+	color: #7d97ad;
+}
+
+.featured-work {
+	margin-top: 5%;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
