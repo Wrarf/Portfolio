@@ -17,7 +17,6 @@ main {
 }
 
 header {
-	height: 20%;
 	width: 100%;
 	overflow: auto;
 	border-bottom: solid 5px #7d97ad;
@@ -100,4 +99,98 @@ img {
 #colors-descriptions {
 	text-align: center;
 	font-size: 18px;
+}
+
+@media screen and (min-width: 400px) {
+	.box {
+		margin-top: 5%;
+	}
+
+	#logo {
+		width: 9%;
+	}
+	#colors-row {
+		height: 125px;
+	}
+}
+
+@media screen and (min-width: 460px) {
+	#logo {
+		width: 8%;
+	}
+}
+
+@media screen and (min-width: 520px) {
+	#logo {
+		width: 7%;
+	}
+	#colors-row {
+		height: 150px;
+	}
+}
+
+@media screen and (min-width: 590px) {
+	#logo {
+		width: 6%;
+	}
+	#colors-row {
+		height: 175px;
+	}
+}
+
+@media screen and (min-width: 690px) {
+	#logo {
+		width: 5%;
+	}
+	#colors-row {
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 830px) {
+	#logo {
+		width: 4%;
+	}
+	* {
+		font-size: 25px;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 35px;
+	}
+	h4 {
+		font-size: 30px;
+	}
+	#colors-row {
+		height: 225px;
+	}
+	#colors-descriptions {
+		font-size: 33px;
+	}
+
+}
+
+/* PC/IPAD-PRO VERSION */
+@media screen and (min-width: 1000px) {
+
+}
+
+@media screen and (min-width: 1030px) {
+	#logo {
+		width: 3%;
+	}
+	#colors-row {
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 1299px) {
+	#logo {
+		width: 2%;
+	}
 }
