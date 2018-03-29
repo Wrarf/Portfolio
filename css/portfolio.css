@@ -150,7 +150,7 @@ img {
 
 @media screen and (min-width: 830px) {
 	#logo {
-		width: 10%;
+		width: 8%;
 	}
 	* {
 		font-size: 25px;
@@ -165,7 +165,7 @@ img {
 		font-size: 35px;
 	}
 	h4 {
-		font-size: 30px;
+		font-size: 23px;
 	}
 	#colors-row {
 		height: 225px;
@@ -173,25 +173,64 @@ img {
 	#colors-descriptions {
 		font-size: 33px;
 	}
-
 }
 
 /* PC/IPAD-PRO VERSION */
 @media screen and (min-width: 1000px) {
-
+	*{
+		font-size: 20px;
+	}
+	body {
+		padding: 3% 8%;
+	}
+	h4 {
+		margin-bottom: 8%;
+	}
+	.box {
+		margin-top: 2%;
+	}
+	.right {
+		margin-left: 15%;
+	}
+	#colors {
+		width: 15%;
+		order: 1;
+	}
+	#main-img-container {
+		width: 85%;
+		height: 425px;
+		order: 2;
+	}
+	#featured-works-container {
+		order: 3;
+	}
+	#featured-works-title {
+		margin-left: 1%;
+	}
+	.featured-work {
+		margin-top: 1%;
+		margin-right: 2.7%;
+		width: 31.5%;
+	}
+	#work3 {
+		margin-right: 0;
+	}
 }
 
-@media screen and (min-width: 1030px) {
+@media screen and (min-width: 1300px) {
 	#logo {
-		width: 3%;
-	}
-	#colors-row {
-		height: 250px;
+		width: 7%;
 	}
 }
 
-@media screen and (min-width: 1299px) {
+@media screen and (min-width: 1700px) {
 	#logo {
-		width: 2%;
+		width: 6%;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	#logo {
+		width: 5%;
 	}
 }

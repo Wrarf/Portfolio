@@ -9,7 +9,7 @@
 
 	<body>
 		<main>
-			<header>
+			<header class="right">
 				<img id="logo" src="img/startup.svg">
 				<div id="author-infos">
 					<h1>MATTEO DOCCI</h1>
@@ -18,11 +18,11 @@
 			</header>
 			<section id="main-img-container" class="box">
 				<picture id="main-img">
-					<source src="" type="">
+					<source media="(min-width: 1000px)" srcset="img/main.jpeg">
 					<img src="img/main-mobile.jpeg">
 				</picture>
 			</section>
-			<section id="featured-works-container" class="box">
+			<section id="featured-works-container" class="box right">
 				<h3 id="featured-works-title">Featured Work</h3>
 				<div class="featured-work">
 					<picture class="featured-work-preview">
@@ -40,7 +40,7 @@
 					<h2>WORK 2</h2>
 					<a href="https://github.com">https://github.com</a>
 				</div>
-				<div class="featured-work">
+				<div id="work3" class="featured-work">
 					<picture class="featured-work-preview">
 						<source media="(min-width: 1000px)" srcset="img/featured-3.jpeg">
 						<img src="img/featured-3-mobile.jpeg">
