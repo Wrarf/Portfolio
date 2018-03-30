@@ -21,6 +21,8 @@ header {
 	height: 20%;
 	overflow: auto;
 	border-bottom: solid 5px #7d97ad;
+	display: flex;
+	justify-content: space-between;
 }
 
 #logo {
@@ -28,11 +30,9 @@ header {
 	top: 0.3em;
 	left: 0.1em;
 	width: 10%;
-	float: left;
 }
 
 #author-infos {
-	float: right;
 	text-align: right;
 }
 
@@ -60,7 +60,6 @@ h4 {
 img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
 }
 
 #featured-works-title {
@@ -71,14 +70,17 @@ img {
 
 .featured-work {
 	margin-top: 5%;
-	float: left;
 	text-align: center;
 	width: 100%;
 }
 
+#colors {
+	display: flex;
+	justify-content: center;
+}
+
 .color-container {
 	font-size: 18px;
-	float: left;
 	width: 33%;
 	text-align: center;
 }
@@ -176,5 +178,91 @@ a {
 	}
 	h4 {
 		font-size: 23px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	* {
+		font-size: 20px;
+	}
+	body {
+		padding: 3% 8%;
+	}
+	h4 {
+		margin-bottom: 8%;
+	}
+	.box {
+		margin-top: 2%;
+	}
+	.right {
+		margin-left: 15%;
+	}
+	#colors {
+		width: 10%;
+		height: 425px;
+		order: 1;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		padding-top: 0;
+		display: inline;
+	}
+	.color-container {
+		width: 100%;
+		height: 33%;
+		text-align: right;
+	}
+	.show-color {
+		width: 100%;
+		height: 60%;
+		margin-left: auto;
+	}
+	#main-img-container {
+		width: 85%;
+		height: 425px;
+		order: 2;
+		padding-left: 5%;
+	}
+	#featured-works-container {
+		order: 3;
+	}
+	#featured-works-title {
+		margin-left: 1%;
+	}
+	.featured-work {
+		margin-top: 1%;
+		width: 30%;
+	}
+	#work3 {
+		margin-right: 0;
+	}
+	#featured-works-aligner {
+		display: flex;
+		justify-content: space-between;
+		height: 70%;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	* {
+		font-size: 25px;
+	}
+	#logo {
+		width: 7%;
+	}
+	.show-color {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	#logo {
+		width: 6%;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	#logo {
+		width: 5%;
 	}
 }
